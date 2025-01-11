@@ -1,0 +1,25 @@
+#image {
+    border: 2px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 100px;
+}
+
+
+.info {
+    color: blue;
+    font-weight: bold;
+    font-family: arial;
+    font-style: italic;
+    border-style: solid;
+    background-color: lightgrey;
+}
+
+
+#about {
+    color: lightgreen;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+    border-style: dashed;
+}
