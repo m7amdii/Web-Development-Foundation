@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .projects {
+            margin: 20px 0;
+        }
+
+        .project-button {
+            margin-left: 10px;
+        }
+
+        ul,
+        ol {
+            margin: 10px 0;
+        }
+
+        form {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            max-width: 400px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Portfolio</h1>
+
+    <p>
+        <strong>Name:</strong> Mohamed Essan<br>
+        <strong>Date of Birth:</strong> Nov 13<br>
+        <strong>Education:</strong> Bachelor of computer science<br>
+        <strong>Current Job:</strong> Software Engineer<br>
+        <strong>Languages:</strong> Arabic, English,  German<br>
+        <strong>Activities:</strong> Coding, Reading, Traveling
+    </p>
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                Portfolio Website
+                <button class="project-button" onclick="window.open('https://example.com/portfolio')">View</button>
+            </li>
+            <li>
+                Weather App
+                <button class="project-button" onclick="window.open('https://example.com/weather')">View</button>
+            </li>
+            <li>
+                E-commerce Platform
+                <button class="project-button" onclick="window.open('https://example.com/ecommerce')">View</button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="languages-courses">
+        <h2>Languages I Speak</h2>
+        <ul>
+            <li>English</li>
+            <li>French</li>
+            <li>Spanish</li>
+        </ul>
+
+        <h2>Courses Attended</h2>
+        <ol>
+            <li>Advanced Web Development</li>
+            <li>Advanced Python Course</li>
+        </ol>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="request">Request:</label>
+            <textarea id="request" name="request" rows="4" required></textarea>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
